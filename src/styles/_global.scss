@@ -40,11 +40,47 @@
   font-family: 'Reem Kufi';
   font-style: normal;
   font-weight: 400;
-  src: local('Reem Kufi Regular'), local('ReemKufi-Regular'),
+  src: local('ReemKufi'), local('ReemKufi-Regular'),
        url('../libs/fonts/reem-kufi-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../libs/fonts/reem-kufi-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+
+@font-face {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 100;
+  src: local('HK Grotest'), local('HKGrotesk'),
+  url('../libs/fonts/WEB/HKGrotesk-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  src: local('HK Grotest Medium'), local('HKGrotesk-Medium'),
+  url('../libs/fonts/WEB/HKGrotesk-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: local('HK Grotest Regular'), local('HKGrotesk-Regular'),
+  url('../libs/fonts/WEB/HKGrotesk-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: local('HK Grotest Semi Bold'), local('HKGrotesk-SemiBold'),
+  url('../libs/fonts/WEB/HKGrotesk-SemiBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 900;
+  src: local('HK Grotest Bold'), local('HKGrotesk-Bold'),
+  url('../libs/fonts/WEB/HKGrotesk-Bold.woff2') format('woff2');
+}
 html {
 	font-size: 12px;
 
@@ -66,7 +102,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'HK Grotesk', sans-serif;
 	font-weight: 300;
 }
 

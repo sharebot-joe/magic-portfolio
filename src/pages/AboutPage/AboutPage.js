@@ -31,14 +31,14 @@ const AboutPage = (props, context) => {
               My work is inspired by a wide range of web experiences, but mostly the ones that just feel good. If the user is happy, then so am I.
             </p>
             <p>
-              Please browse this site for samples of my work. You can get in touch with me here or by email. You can also find me on Slack (#joskim).
+              Please browse this site for samples of my work. You can get in touch with me by <a href="mailto:josephikim2@gmail.com">email</a>. You can also find me on Slack (#joskim).
             </p>
             <p>
-              React, Express.js, Node.js, Postgres and RESTful APIs are the tools I enjoy using. I'm currently learning the ins and outs of Docker to round out my Dev Ops skills. I'm highly experienced in deploying CRMs, Productivity Suites and other enterprise grade SaaS products.
+              React, Express.js, Node.js, Postgres and RESTful APIs are some tools I enjoy using. For debugging, I prefer Youtube, Stack Overflow or bourbon.
             </p>
-            <p className="text-emoji" style={{ color: colorPrimary }}>
+            {/*<p className="text-emoji" style={{ color: colorPrimary }}>
               Have a meme!
-            </p>
+            </p>*/}
           </div>
         </div>
       </div>

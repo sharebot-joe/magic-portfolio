@@ -22,8 +22,8 @@ $border-radius: 2px;
 
   &__title {
     flex: 1;
-    padding: 1rem 1.5rem;
-    font-size: 1.125rem;
+    padding: 1rem 1.3rem;
+    font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
 
@@ -36,13 +36,13 @@ $border-radius: 2px;
     display: flex;
     flex-direction: column;
     padding: 0 0.5rem;
-    font-size: 0.75rem;
+    font-size: .9rem;
     font-weight: 400;
     text-align: center;
     line-height: 1.25rem;
 
     @include breakpoint-small-down {
-      font-size: 0.875rem;
+      font-size: 0.9rem;
     }
   }
 
@@ -61,7 +61,7 @@ $border-radius: 2px;
     padding: 0 0 0.75rem;
     display: flex;
     justify-content: space-around;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-weight: 400;
 
     a {
